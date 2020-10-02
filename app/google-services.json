@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "696890449514",
+    "firebase_url": "https://quixotic-spot-247512.firebaseio.com",
+    "project_id": "quixotic-spot-247512",
+    "storage_bucket": "quixotic-spot-247512.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696890449514:android:97fdfed85214ce65547413",
+        "android_client_info": {
+          "package_name": "com.android.a17027641_nguyenminhchien_android_2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696890449514-ratac8q13csnl98urcu1m0jc3hrst4rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.a17027641_nguyenminhchien_android_2020",
+            "certificate_hash": "7689826c54d26b83f2a35a99d309c38d295f563a"
+          }
+        },
+        {
+          "client_id": "696890449514-3mm5d4ulo7t5poti11317l4acgbml0n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByJ9yR1s93gXR69Cg-s7cH4o9k1h6--VI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696890449514-3mm5d4ulo7t5poti11317l4acgbml0n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
