@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_title">PASSWORD\nGENERATOR</string>
+    <string name="text_password_length">Password length</string>
+    <string name="text_include_lower_case">Include lower case letters</string>
+    <string name="text_include_upper_case_letters">Include uppercase letters</string>
+    <string name="text_include_number">Include number</string>
+    <string name="text_include_special_symbol">Include special symbol</string>
+    <string name="button_generate_password">"GENERATE PASSWORD "</string>
+</resources>
