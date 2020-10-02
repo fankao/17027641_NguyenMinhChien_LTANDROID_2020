@@ -40,7 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnGeneratePassWord"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -65,7 +65,7 @@
         android:layout_marginBottom="32dp"
         android:orientation="vertical"
         android:weightSum="5"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnGeneratePassWord"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPassword">
@@ -120,15 +120,16 @@
                 android:textStyle="bold" />
 
             <CheckBox
-                android:id="@+id/chkLowerKey"
+                android:id="@+id/chkLowerCase"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
+                android:button="@drawable/checkbox_selector"
                 android:checked="true"
                 android:foregroundTint="#0000"
-                android:button="@drawable/checkbox_selector"
                 android:foregroundTintMode="add" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -148,12 +149,12 @@
                 android:textStyle="bold" />
 
             <CheckBox
-                android:id="@+id/chkUpper"
+                android:id="@+id/chkUpperCase"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|end"
-                android:button="@drawable/checkbox_selector"
-                android:layout_weight="2" />
+                android:layout_weight="2"
+                android:button="@drawable/checkbox_selector" />
         </LinearLayout>
 
         <LinearLayout
@@ -179,8 +180,8 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|end"
-                android:button="@drawable/checkbox_selector"
-                android:layout_weight="2" />
+                android:layout_weight="2"
+                android:button="@drawable/checkbox_selector" />
         </LinearLayout>
 
         <LinearLayout
@@ -205,9 +206,9 @@
                 android:id="@+id/chkSpecialSymbol"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:button="@drawable/checkbox_selector"
                 android:layout_gravity="right|end"
-                android:layout_weight="2" />
+                android:layout_weight="2"
+                android:button="@drawable/checkbox_selector" />
         </LinearLayout>
 
     </LinearLayout>
