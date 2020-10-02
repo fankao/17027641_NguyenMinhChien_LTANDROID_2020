@@ -7,4 +7,5 @@
     <string name="text_include_number">Include number</string>
     <string name="text_include_special_symbol">Include special symbol</string>
     <string name="button_generate_password">"GENERATE PASSWORD "</string>
+    <string name="app_name">Generator Password</string>
 </resources>
