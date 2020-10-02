@@ -12,6 +12,7 @@ import android.widget.Button;
 
 import com.android.a17027641_nguyenminhchien_android_2020.LoginActivity;
 import com.android.a17027641_nguyenminhchien_android_2020.R;
+import com.android.a17027641_nguyenminhchien_android_2020.SignUpActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -21,6 +22,7 @@ import com.android.a17027641_nguyenminhchien_android_2020.R;
 public class WelcomeFragment extends Fragment {
 
     Button btnNextLogin;
+    Button btnNextSignUp;
 
     public WelcomeFragment() {
         // Required empty public constructor
@@ -53,6 +55,15 @@ public class WelcomeFragment extends Fragment {
                Intent intent =  LoginActivity.newIntent(getActivity());
                startActivity(intent);
             }
+        });
+        btnNextSignUp = (Button)view.findViewById(R.id.btnNextSignUp);
+        btnNextSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = SignUpActivity.newIntent(getActivity());
+                startActivity(intent);
+            }
+
         });
         return view;
     }
